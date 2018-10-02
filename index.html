@@ -1,35 +1,109 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Good Husband Webpage</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <!-- Note to self: "Ctrl + /" to make notes -->
-        <p><a href="whatever.html">Go to my awesome second page (or not, whatever)</a></p>
-        <h1>Hello Darling...</h1>
-        <img src="Wave.gif" class="image" >
-        <h2>Happy Early Birthday!!!</h2>
-        <img src="bday.jpg" class="image">
-        <h2>I love you <em>soooooo</em> much</h2>
-        <img src="lipstick.gif"class="image">
-        <p id="p1" class="detail">Is this weird?</p>
-        <img src="weird.gif" class="image">
-        <p id="header">Potential Reasons This is Weird/Not Weird</p>
-        <table id="table1">
-            <tr>
-                <th>Potentially Weird</th>
-                <th>Not at all Weird</th>
-            </tr>
-            <tr>
-                <td>Steve Buscemi is everywhere</td>
-                <td>The messaging seems sincere</td>
-            </tr>
-            <tr>
-                <td>No but seriously that lipstick is upsetting</td>
-                <td>But you know the words are how I feel</td>
-            </tr>
-        </table>
-        <p id="p2" class="detail">Go to the <a href="http://google.com">internet</a></p>
-    </body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+ 
+    <!-- My Own CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Grant Walker News</title>
+  </head>
+  <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Navigate</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Other News</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Account
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Account Summary</a>
+                        <a class="dropdown-item" href="#">Add-ons</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Support</a>
+                      </div>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+              <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                      <h1 class="header" class="display-4">Grant Walker News</h1>
+                      <p class="lead">Updates on the good and poor choices of Grant Walker</p>
+                    </div>
+                  </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h2 class="header">Breaking News</h2>
+                <h3 class="header">New Car Delays Midlife Crisis One Year</h3>
+                <p>New Tesla: The P-Wave of a coming psychosocial earthquake?</p>
+            </div>
+            <div class="col-md-6">
+                <h1 class="header">Headlines</h1>
+                <h2 class="header">As Second Year Begins, Nation Wonders: Could Anything Matter Less?</h2>
+                <p>The Kellogg bubble continues to float on, oblivious to the outside world.</p>
+            </div>
+            <div class="col-md-3">
+                <h2 class="header">Opinion</h2>
+                <h3 class="header">Grant is a Sellout</h3>
+                <p>The self-justification is strong with this one</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="header">Personal Life</h2>
+            </div>
+            <div class="col-md-6">
+                <h2 class="header">Career Prospects</h2>
+                <table id="table1" class="table table-bordered table-striped">
+                    <tr>
+                        <th>Organization</th>
+                        <th>Betting Market Odds</th>
+                    </tr>
+                    <tr>
+                        <td>No Job</td>
+                        <td>40%</td>
+                    </tr>
+                    <tr>
+                        <td>Oak Street Health</td>
+                        <td>30%</td>
+                    </tr>
+                    <tr>
+                        <td>Charter School Growth Fund</td>
+                        <td>15%</td>
+                    </tr>
+                    <tr>
+                        <td>DaVita</td>
+                        <td>5%</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 </html>
