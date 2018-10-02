@@ -1,0 +1,46 @@
+h1 {
+    color: rgb(120, 10, 153);
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-style: double;
+    box-shadow: 4px;
+}
+
+h2 {
+    color: rgb(120, 10, 153);
+}
+
+#p1 {
+    color: palevioletred
+}
+
+#p2 { 
+    color: orchid
+}
+#p2 a {
+    color: orchid
+}
+
+#header {
+    font-weight: 600;
+    font-size: 18pt;
+}
+.detail {
+    font-size: 14pt;
+    font-weight: 600;
+}
+.image {
+    width: 400px;
+}
+body {
+    background-color: rgb(206, 205, 205);
+    text-align: center
+}
+#table1 {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1pt;
+    border-style: double;
+    box-shadow: 4px;
+}
