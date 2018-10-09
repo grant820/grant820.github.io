@@ -21,7 +21,8 @@ h3 {
 }
 
 body {
-    background-color: rgb(252, 248, 248)
+    background-color: rgb(252, 248, 248);
+    font-family: 'Covered By Your Grace', cursive;
 }
 #table1 {
     width: 500px;
