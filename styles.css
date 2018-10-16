@@ -1,34 +1,28 @@
-h1 {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.jumbotron {
+    background-image: url(banner.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    text-align: center;
+    color: whitesmoke;
 }
-
-h2 {
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.display-4 {
+    font-family: 'Kalam', cursive;
 }
-
-h3 {
-    font-size: 16pt;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- }
 
 .header {
-    text-align: center;
-    font-weight: bold;
+    font-family: 'Kalam', cursive;
 }
 
-.lead {
-    text-align: center;
+.carousel-caption {
+    margin: 30px;
+    background-color: rgb(240, 234, 234, .4);
+    color: black;
 }
 
-body {
-    background-color: rgb(252, 248, 248);
-    font-family: 'Covered By Your Grace', cursive;
+.col-md-6 {
+    text-align: center;
+    vertical-align: center;
+    
 }
-#table1 {
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1pt;
-    border-style: double;
-    box-shadow: 4px;
-}
+
+
